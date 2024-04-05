@@ -66,11 +66,9 @@ The main layers of the application are located in the "ChallengeComponents" pack
    - All views have a preview that can be executed using the "Challenge_Development" scheme.
 
 ## Important!
-The app use a backend mocked in [mockable.io](https://www.mockable.io/). If you want to run the app and the backend does not work, you need to create a Rest Mock in [mockable.io](https://www.mockable.io/) with:
-     - "/recipes" path
-     - GET verb
-     - You can paste this JSON to the response body:
-    
+
+The app use a backend mocked in [mockable.io](https://www.mockable.io/). If you want to run the app and the backend does not work, you need to create a Rest Mock in [mockable.io](https://www.mockable.io/) with "/recipes" path, GET verb. You can paste this JSON to the response body:
+     
     [
     {
         "name": "Panqueques",
@@ -100,6 +98,7 @@ The app use a backend mocked in [mockable.io](https://www.mockable.io/). If you 
     }
     ]
 
+After that replace the "BASE_URL" in "SupportingFiles/Development" and "SupportingFiles/Production" by the base url of your mocked backend
 
 
 # Challenge - Recetas
