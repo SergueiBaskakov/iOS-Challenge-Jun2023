@@ -204,3 +204,6 @@ La app utiliza un mock backend creado en [mockable.io](https://www.mockable.io/)
             "latitude": 55.751244
     }
     ]
+
+  After that replace the "BASE_URL" in "SupportingFiles/Development" and "SupportingFiles/Production" by the base url of your mocked backend
+  Posteriormente debera reemplazar la variable "BASE_URL" en "SupportingFiles/Development" y "SupportingFiles/Production" por la url base de su mocked backend
