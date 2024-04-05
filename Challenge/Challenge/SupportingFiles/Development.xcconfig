@@ -1,0 +1,10 @@
+//
+//  Development.xcconfig
+//  ChallengeYape
+//
+//  Created by Serguei Diaz on 22.06.2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+BASE_URL=demo3550542.mockable.io
